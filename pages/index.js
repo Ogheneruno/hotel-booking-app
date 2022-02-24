@@ -19,7 +19,7 @@ export default function Home({ roomList, admin }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Featured />
-      {/* {<AddButton setClose={setClose} />} */}
+      {<AddButton setClose={setClose} />}
       <RoomList roomList={roomList} />
       {!close && <Add setClose={setClose} />}
     </div>
